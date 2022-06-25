@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Work+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>PROJECT 1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.css"
+      integrity="sha512-M9yHeAbo9J8KSZVvOi5PEo4WrL6LWxbS+cvh6faIEPPqHQXhxilgCSJ/L2tTqRf73GmI4+tNy8OWSsQuwXc4fw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="partners.css" />
+
+    <body>
+      <div class="page">
+        <div class="top-section">
+          <header class="header">
+            <div class="logo">
+              <img
+                class="logo__image"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png"
+                alt="logo"
+              />
+              <div class="logo__text">
+                <div class="logo__name">Foundation</div>
+                <div class="logo__description">Startup landing template</div>
+              </div>
+              <nav class="navigation">
+                <a href="#" class="navigation__item navigation__item_selected">Home</a>
+                <a href="#" class="navigation__item">Stories</a>
+                <a href="#" class="navigation__item">Library<i class="navigation__arrow"></i></a>
+              </nav>
+              <button class="action-button header__button">Get Started</button>
+              <button class="header__menu-button">
+                <img
+                  class="header__menu-icon"
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png"
+                  alt="option"
+                />
+              </button>
+            </div>
+          </header>
+
+          <!----------------HEADLINE--------------------->
+
+          <section class="headline">
+            <div class="headline__content">
+              <h1 class="headline-title">Build stunning websites & apps.</h1>
+              <p class="headline-description">
+                Create live segments and target the right people for messages based on their
+                behaviors.
+              </p>
+              <div class="headline__actions">
+                <button class="action__button headline__action-btn">Get Started</button>
+                <button class="headline__learn-more-btn headline__action-btn">Learn More</button>
+              </div>
+            </div>
+            <img
+              class="headline__banner"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png"
+              alt="Headline Banner"
+            />
+          </section>
+        </div>
+
+        <!-------About------->
+
+        <section class="about">
+          <article class="article">
+            <h4 class="article__title">What is it about?</h4>
+            <p class="article__text">
+              Building a website for a startup that looks amazing is not a rocket science anymore.
+            </p>
+          </article>
+          <article class="article">
+            <h4 class="article__title">Who is it for?</h4>
+            <p class="article__text">
+              Startups, small companies and teams, entrepreneurs and web developers.
+            </p>
+          </article>
+        </section>
+
+        <!-------Partners------->
+
+        <div class="customers">
+          <div class="customers-row">
+            <div class="customers__item">
+              <img
+                class="customers__logo"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-nyt.png"
+                alt="The New York Times"
+              />
+            </div>
+            <div class="customers__item">
+              <img
+                class="customers__logo"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-forbes.png"
+                alt="forbes"
+              />
+            </div>
+            <div class="customers__item">
+              <img
+                class="customers__logo"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-apple.png"
+                alt="apple"
+              />
+            </div>
+          </div>
+          <div class="customers-row">
+            <div class="customers__item">
+              <img
+                class="customers__logo"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-mashable.png"
+                alt="Mashabhle"
+              />
+            </div>
+            <div class="customers__item">
+              <img
+                class="customers__logo"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-wsj.png"
+                alt="WSJ"
+              />
+            </div>
+            <div class="customers__item">
+              <img
+                class="customers__logo"
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-google.png"
+                alt="Google"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-------Features Mobile----------->
+        <section class="tips">
+          <div class="tip">
+            <span class="tip__subtitle">Acquire Customers</span>
+            <h3 class="tip__title">Easily find leads and customers</h3>
+            <p class="tip__description">
+              Send one-off and automated email, push, and in-app messages to people. Create better
+              stories.
+            </p>
+            <figure class="tip__decoration">
+              <img
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/tip-asquire-customer.png"
+                alt="Asquire Customers"
+              />
+              <figcaption class="tip__image-caption">A better way to acquire new users</figcaption>
+            </figure>
+          </div>
+          <div class="tip">
+            <span class="tip__subtitle">Engage Users</span>
+            <h3 class="tip__title">Engage with your audience</h3>
+            <p class="tip__description">
+              Send one-off and automated email, push, and in-app messages to people. Create better
+              stories.
+            </p>
+            <figure class="tip__decoration">
+              <img
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/tip-engage-user.png"
+                alt="Engage Users"
+              />
+              <figcaption class="tip__image-caption">
+                Knowledge base and smart self-service
+              </figcaption>
+            </figure>
+          </div>
+          <div class="tip">
+            <span class="tip__subtitle">Support</span>
+            <h3 class="tip__title">The best customer experiences</h3>
+            <p class="tip__description">
+              A beautifully simple system for tracking, prioritizing, and solving customer support
+              tickets.
+            </p>
+            <figure class="tip__decoration">
+              <img
+                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/tip-support.png"
+                alt="Support"
+              />
+              <figcaption class="tip__image-caption">Live chat and messaging</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <!---------Features-Deskstop-------->
+        <section class="features">
+          <img
+            class="features__left-decoration"
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/hidden-ouch.png"
+            alt="Half Hidden Head"
+          />
+          <div class="features__content">
+            <div class="features__column">
+              <h4 class="features_subtitle">Features</h4>
+              <h2 class="features_title">Easily find leads and customers</h2>
+              <p class="features__description">
+                Send one-off and automated email, push and in-app messages to people. Create better
+                stories.
+              </p>
+              <div class="features__adventage-header">
+                <img
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-compas.png"
+                  alt="Compas"
+                />
+                <h5 class="features__adventage-title">Acquire new customers</h5>
+              </div>
+              <p class="features__advantage-description">
+                Everything you need to start building - including open-sourse code, documentation.
+              </p>
+              <div class="features__advantage-item">
+                <img
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-building.png"
+                  alt="Icon building"
+                />
+                <span class="features__advantage-item-text">Develop across platforms</span>
+              </div>
+            </div>
+          </div>
+          <img
+            class="features__banner"
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/invision-screen.png"
+            alt="Invision Screen"
+          />
+        </section>
+
+        <!----Footer------>
+        <footer class="footer">
+          <div class="footer-navigation">
+            <div class="about-company">
+              <div class="footer__logo">
+                <img
+                  class="logo__image-footer"
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png"
+                  alt="logo"
+                />
+                <div class="logo__text">
+                  <div class="logo__name-footer">Foundation</div>
+                  <div class="logo__description">Startup landing template</div>
+                </div>
+              </div>
+              <div class="logo-vertical">
+                <img
+                  class="logo-vertical__image"
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png"
+                  alt="logo"
+                />
+                <div class="logo-vertical__text">
+                  <div class="logo-vertical__name">Foundation</div>
+                  <div class="logo-vertical__description">Startup landing template</div>
+                </div>
+              </div>
+              <div class="footer__description">
+                Foundation is a website template for startups and small teams. It helps to build a
+                website in no time.
+              </div>
+              <div class="downloads">
+                <img
+                  class="downloads__item"
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png"
+                  alt="Apple Store Download"
+                />
+                <img
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/google-play.png"
+                  alt="Google Play Download"
+                />
+              </div>
+            </div>
+            <div class="footer__line hide__desktop"></div>
+            <div class="additional-navigation">
+              <div class="additional-navigation__column nav-links">
+                <h3 class="nav-links__title">Products</h3>
+                <ul class="nav-links__list">
+                  <li class="class=" nav-links__list-item>Acquire Users</li>
+                  <li class="class=" nav-links__list-item>Content Marketing</li>
+                  <li class="class=" nav-links__list-item>Website Templates</li>
+                  <li class="class=" nav-links__list-item>Customer Management</li>
+                  <li class="class=" nav-links__list-item>Virtual Inbox</li>
+                </ul>
+              </div>
+              <div class="nav-links additional-navigation__column">
+                <h3 class="nav-links__title">Company</h3>
+                <ul class="nav-links__list">
+                  <li class="nav-links__list-item">About Foundation</li>
+                  <li class="nav-links__list-item">Brand Guidelines</li>
+                  <li class="nav-links__list-item">Press Kit</li>
+                  <li class="nav-links__list-item">Support</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer__line hide__mobile"></div>
+          <div class="footer-links">
+            <nav class="terms">
+              <a href="#" class="terms__items">Terms</a>
+              <a href="#" class="terms__items">Privacy</a>
+              <a href="#" class="terms__items">Licence</a>
+            </nav>
+            <div class="social-links">
+              <a class="social-links-item" href="https://twitter.com" target="_blank"
+                ><img
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png"
+                  alt="Twitter link"
+              /></a>
+              <a class="social-links-item" href="https://facebook.com" target="_blank"
+                ><img
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png"
+              /></a>
+              <a class="social-links-item" href="https://linkedin.com" target="_blank"
+                ><img
+                  src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png"
+              /></a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </body>
+  </head>
+</html>

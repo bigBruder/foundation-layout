@@ -1,0 +1,52 @@
+$lg: 1400px;
+
+@mixin for-large {
+  @media screen and (min-width: $lg) {
+  }
+  @content;
+}
+
+// @media screen and(min-width: 1400px) {
+//   .navigation {
+//     display: none;
+//     flex-direction: row;
+//     margin: auto;
+//   }
+// }
+
+// @media screen and(min-width: 1400px) {
+//   .navigation {
+//     display: flex;
+//   }
+// }
+
+// @media screen and(min-width: 1400px) {
+//   .logo__description {
+//     display: block;
+//   }
+// }
+
+// @media screen and(min-width: 1400px) {
+//   .logo__text {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//   }
+// }
+
+// @media screen and(min-width: 1400px) {
+//   .nav__gamburger {
+//     display: none;
+//   }
+// }
+
+// @media screen and(min-width: 1400px) {
+//   .logo {
+//     background-color: #f3c6bd;
+//   }
+// }
+
+// @media screen and(max-width:1399px) {
+//   .headline__action-btn {
+//   }
+// }
