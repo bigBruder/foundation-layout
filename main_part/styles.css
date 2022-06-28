@@ -429,6 +429,8 @@
 .features__banner {
   position: absolute;
   right: 0;
+  width: 700px;
+  height: 540px;
 }
 
 .tips {
@@ -636,6 +638,7 @@
   .terms {
     line-height: 50px;
     margin-top: 0px;
+    margin-bottom: 30px;
   }
 }
 .downloads {
@@ -837,6 +840,12 @@
     margin: 0;
   }
 }
+.button-action .order-form__button {
+  border: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+}
+
 .order .order-wrap .order-terms {
   margin-top: 10px;
   height: 44px;
@@ -936,6 +945,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 13px;
+  border: none;
 }
 
 @media screen and (min-width: 1400px) {
@@ -951,7 +961,9 @@
   font-weight: 700;
   background-color: #fff;
   margin-top: 12px;
-  margin-bottom: 40p;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 2px;
 }
 
 @media screen and (min-width: 1400px) {
