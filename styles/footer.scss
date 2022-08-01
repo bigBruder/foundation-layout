@@ -1,16 +1,21 @@
-@import './breakpoints.scss';
-
 .footer {
   margin-top: auto;
   display: flex;
   flex-direction: column;
   &__logo {
+    height: 55px;
     display: none;
     flex-direction: row;
     background-color: #ffff;
 
     @include for-large-up {
       display: flex;
+    }
+    &__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 15px;
     }
   }
   &__description {
@@ -40,8 +45,29 @@
       margin-top: 53px;
       flex-direction: row;
       justify-content: space-around;
-      height: 389px;
+      height: 300px;
       width: 1140px;
+    }
+  }
+  &__line {
+    margin-top: 40px;
+    margin: 0;
+    border: 1px solid #2b2b2d;
+    width: 100%;
+    opacity: 0.1;
+  }
+
+  &-links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+    @include for-large-up {
+      flex-direction: row;
+      width: 1140px;
+      height: 50px;
+      margin: 0 auto;
+      align-items: center;
     }
   }
 }
@@ -65,12 +91,26 @@
     text-align: center;
     margin-top: 20px;
   }
-  &__description {
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    color: #2b292d;
-  }
+}
+
+.logo__image-footer {
+  width: 60px;
+  height: 60px;
+  margin-top: 7px;
+}
+
+.logo__name-footer {
+  font-size: 20px;
+  height: 44px;
+  line-height: 64px;
+  font-weight: 700;
+}
+
+.logo__description {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #2b292d;
 }
 
 .downloads {
@@ -91,8 +131,8 @@
   @include for-large-up {
     width: 559px;
     height: 231px;
-    margin-top: 75px;
-    margin-left: auto;
+    margin-top: 22px;
+    margin-left: 126px;
     flex-direction: row;
   }
   &__column {
@@ -102,27 +142,6 @@
       margin-top: 0px;
       margin-right: 29px;
     }
-  }
-}
-.footer__line {
-  margin-top: 40px;
-  margin: 0;
-  border: 1px solid #2b2b2d;
-  width: 100%;
-  opacity: 0.1;
-}
-
-.footer-links {
-  display: flex;
-  flex-direction: column;
-  margin-left: 15px;
-
-  @include for-large-up {
-    flex-direction: row;
-    width: 1140px;
-    height: 50px;
-    margin: 0 auto;
-    align-items: center;
   }
 }
 
@@ -153,20 +172,10 @@
     padding: 0;
     margin: 0;
     margin-top: 18px;
+    &-item {
+      line-height: 33px;
+    }
   }
-}
-
-.logo__image-footer {
-  width: 60px;
-  height: 60px;
-  margin-top: 7px;
-}
-
-.logo__name-footer {
-  font-size: 20px;
-  height: 44px;
-  line-height: 64px;
-  font-weight: 700;
 }
 
 .terms {
@@ -177,7 +186,6 @@
   @include for-large-up {
     line-height: 50px;
     margin-top: 0px;
-    margin-bottom: 30px;
   }
   &__items {
     text-decoration: none;
@@ -193,7 +201,8 @@
 
   @include for-large-up {
     margin-left: auto;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
+    margin-right: 15px;
   }
   &__item {
     margin-left: 20px;
@@ -202,6 +211,13 @@
     }
   }
 }
+
+.about-company {
+  @include for-large-up {
+    margin-left: 130px;
+  }
+}
+
 .hide__mobile {
   @include for-small-up {
     display: none;
