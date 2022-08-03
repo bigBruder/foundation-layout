@@ -11,7 +11,7 @@
     @include for-large-up {
       display: flex;
     }
-    &__text {
+    &-text {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -118,6 +118,9 @@
   margin-left: 30px;
   display: flex;
   justify-content: center;
+  @include for-large-up {
+    margin-left: 0px;
+  }
   &__item {
     margin-right: 10px;
   }
