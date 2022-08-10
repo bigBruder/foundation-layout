@@ -1,5 +1,4 @@
 .audience {
-  height: 1730px;
   background-color: #edf8fb;
   padding: 50px 15px 0 15px;
   color: #2b292d;
@@ -39,7 +38,6 @@
     height: 72px;
     font-size: 24px;
     line-height: 34px;
-    margin: 30px auto 0 auto;
   }
 }
 .audience .audience__button-block .audience__button-get-started {
@@ -100,6 +98,11 @@
     width: 262px;
   }
 }
+
+.user-card__img {
+  margin-top: 22px;
+  margin-bottom: 83px;
+}
 .audience .audiense_galary .user-card:hover {
   background-color: #3141c5;
   color: white;
@@ -110,4 +113,7 @@
 .user-card__text {
   font-weight: 700;
   font-size: 22px;
+  line-height: 28px;
+  align-items: center;
+  margin-top: 0px;
 }
