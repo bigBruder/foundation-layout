@@ -93,12 +93,9 @@
 }
 .audience .audiense_galary .user-card {
   background-color: #fff;
-  margin-bottom: 15px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
     inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  height: 300px;
-  padding: 22px 0 33px 0;
   @include for-large-up {
     width: 262px;
   }
