@@ -1,15 +1,17 @@
-Foundation Layout
+# Foundation Layout
 
-https://romontherock.github.io/gromcode_project_1/
+### https://romontherock.github.io/foundation-layout/
 
-Layout supports mobile (up-to-1400px) and desktop (from-1400px+)versions
+Layout supports mobile (up-to-320) and desktop (up-to-1400) versions
 
-The tech stack is:
+### The tech stack is:
 
-HTML5
-CSS3
-Flexbox
-Sass (Scss)
-BEM methodology
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout)
+- [Sass (Scss)](https://sass-lang.com/)
+- [BEM methodology](https://en.bem.info/methodology/)
 
-Author Roman Panas
+### Author
+
+- Roman Panas
