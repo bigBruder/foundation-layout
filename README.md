@@ -1,8 +1,6 @@
 # Foundation Layout
 
-### [Site link]
-
-https://romontherock.github.io/foundation-layout/
+### https://romontherock.github.io/foundation-layout/
 
 Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
 
