@@ -919,6 +919,7 @@
     height: 72px;
     font-size: 24px;
     line-height: 34px;
+    margin: 30px auto 0 auto;
   }
 }
 
@@ -991,7 +992,7 @@
 
 .user-card__img {
   margin-top: 22px;
-  margin-bottom: 83px;
+  margin-bottom: 22px;
 }
 
 .audience .audiense_galary .user-card:hover {
