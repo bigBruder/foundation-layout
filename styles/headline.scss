@@ -8,7 +8,7 @@
     display: flex;
     padding-bottom: 77px;
   }
-  &-description {
+  &__description {
     margin-top: 24px;
     margin-bottom: 0;
     font-size: 24px;
@@ -21,7 +21,7 @@
     }
   }
 
-  &-title {
+  &__title {
     font-size: 50px;
     line-height: 50px;
     font-weight: 700;
@@ -42,13 +42,6 @@
       z-index: 1;
       margin: 0;
     }
-  }
-
-  &-description {
-    font-size: 24px;
-    line-height: 34px;
-    margin-top: 24px;
-    margin-bottom: 0;
   }
 
   &__actions {

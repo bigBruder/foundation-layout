@@ -1,6 +1,6 @@
 .order {
   background-color: #f4f5f7;
-  padding: 0px 15px 0 15px;
+  padding: 0px 15px 50px 15px;
 }
 @media screen and (min-width: 1400px) {
   .order {
@@ -11,9 +11,10 @@
     align-items: center;
   }
 }
-.order .order__img {
-  display: block;
+.order__img {
+  display: flex;
   margin-top: 50px;
+  margin-left: 10px;
 }
 @media screen and (min-width: 1400px) {
   .order .order__img {
