@@ -108,6 +108,9 @@
 
 .audience .audience__galary .user-card:last-child {
   margin-bottom: 50px;
+  @include for-large-up {
+    margin-bottom: 0px;
+  }
 }
 
 .user-card__img {

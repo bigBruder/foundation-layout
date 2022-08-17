@@ -1014,6 +1014,11 @@
 .audience .audience__galary .user-card:last-child {
   margin-bottom: 50px;
 }
+@media screen and (min-width: 1400px) {
+  .audience .audience__galary .user-card:last-child {
+    margin-bottom: 0px;
+  }
+}
 
 .user-card__img {
   margin-top: 22px;
