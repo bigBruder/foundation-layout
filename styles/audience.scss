@@ -1,7 +1,7 @@
 .audience {
   background-color: #edf8fb;
   padding: 50px 15px 0 15px;
-  color: #2b292d;
+  color: $color-grey;
   text-align: center;
   @include for-large-up {
     width: 1400px;
@@ -54,8 +54,8 @@
   left: 15px;
   border-radius: 2px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
-  background-color: #3040c4;
-  color: #ffff;
+  background-color: $color-blue;
+  color: $color-background;
   font-weight: 700;
   font-size: 18px;
   line-height: 13px;
@@ -71,7 +71,7 @@
   width: 100%;
   font-size: 18px;
   font-weight: 700;
-  background-color: #fff;
+  background-color: $color-background;
   margin-top: 12px;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 10%), 0px 4px 6px rgb(0 0 0 / 5%),
     inset 0px 1px 0px rgb(255 255 255 / 10%);
@@ -96,7 +96,7 @@
 .audience .audience__galary .user-card {
   padding-bottom: 33px;
   margin-bottom: 15px;
-  background-color: #fff;
+  background-color: $color-background;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
     inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
@@ -112,7 +112,7 @@
 }
 .audience .audience__galary .user-card:hover {
   background-color: #3141c5;
-  color: white;
+  color: $color-background;
   @include for-large-up {
     width: 262px;
   }
