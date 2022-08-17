@@ -592,6 +592,15 @@
   width: 60px;
   height: 60px;
 }
+.logo-vertical__text {
+  width: 290px;
+}
+.logo-vertical__description {
+  display: flex;
+  justify-content: center;
+  color: #2b292d;
+  opacity: 60%;
+}
 .logo-vertical__name {
   font-weight: 700;
   font-size: 22px;
@@ -657,7 +666,12 @@
 }
 
 .hide__desktop {
-  display: none;
+  margin-top: 0px;
+}
+@media screen and (min-width: 1400px) {
+  .hide__desktop {
+    display: none;
+  }
 }
 
 .nav-links {
@@ -724,7 +738,7 @@
 }
 
 .about-company {
-  margin: 40px 130px 30px 130px;
+  margin: 40px 130px 40px 130px;
 }
 @media screen and (min-width: 1400px) {
   .about-company {
@@ -995,6 +1009,10 @@
     margin-bottom: 0px;
     width: 262px;
   }
+}
+
+.audience .audience__galary .user-card:last-child {
+  margin-bottom: 50px;
 }
 
 .user-card__img {
